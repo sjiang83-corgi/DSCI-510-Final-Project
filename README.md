@@ -25,35 +25,37 @@ For reproducibility, both the original scraped data and the cleaned datasets are
 - `data/processed/`: cleaned and structured data used for analysis and visualization  
 
 ## Project Structure
+```text
 project/
 ├── README.md
-|── requirements.txt
+├── requirements.txt
 ├── data/
 │   ├── raw/
-│   │   |──nba_playoffs_per_game_2019.csv
-│   │   |──nba_playoffs_per_game_2020.csv
-│   │   |──nba_playoffs_per_game_2021.csv
-│   │   |──nba_playoffs_per_game_2022.csv
-│   │   |──nba_playoffs_per_game_2023.csv
-│   │   |──nba_playoffs_per_game_2024.csv
+│   │   ├── nba_playoffs_per_game_2019.csv
+│   │   ├── nba_playoffs_per_game_2020.csv
+│   │   ├── nba_playoffs_per_game_2021.csv
+│   │   ├── nba_playoffs_per_game_2022.csv
+│   │   ├── nba_playoffs_per_game_2023.csv
+│   │   └── nba_playoffs_per_game_2024.csv
 │   └── processed/
-│       |── nba_playoffs_clean_2019.csv
-|       ├── nba_playoffs_clean_2020.csv
-|       ├── nba_playoffs_clean_2021.csv
-|       ├── nba_playoffs_clean_2022.csv
-|       ├── nba_playoffs_clean_2023.csv
-|       ├── nba_playoffs_clean_2024.csv
-|       └── nba_playoffs_clean_all_seasons.csv
+│       ├── nba_playoffs_clean_2019.csv
+│       ├── nba_playoffs_clean_2020.csv
+│       ├── nba_playoffs_clean_2021.csv
+│       ├── nba_playoffs_clean_2022.csv
+│       ├── nba_playoffs_clean_2023.csv
+│       ├── nba_playoffs_clean_2024.csv
+│       └── nba_playoffs_clean_all_seasons.csv
 ├── final_project.ipynb
 ├── Project_proposal.pdf
 ├── results/
-|       └──final_report.pdf
-|── src/
-|     ├── clean_data.py
-|     ├── get_data.py
-|     ├── run_analysis.py
-|     ├── utils/
-|     └── visualize_results.py
+│   └── final_report.pdf
+└── src/
+    ├── clean_data.py
+    ├── get_data.py
+    ├── run_analysis.py
+    ├── utils/
+    └── visualize_results.py
+
 
 
 ## Virtual Environment Setup
